@@ -1,0 +1,38 @@
+body {
+  background-color:#111;
+  overflow: hidden;
+  text-align:center;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+svg{
+  width:100%;
+  height:100%;
+ 
+}
+#app{
+  width:100%;
+  height:100%;
+ 
+}
+
+#hitRing{
+ cursor:pointer;
+ -webkit-tap-highlight-color:transparent;
+}
+
+.disabled{
+ pointer-events:none;
+}
+
+.enabled{
+ pointer-events:auto;
+}
